@@ -5,7 +5,7 @@ const tweetBtn = document.getElementById('tweet-btn');
 const feedDisplay = document.getElementById('feed');
 
 tweetBtn.addEventListener('click', function(){
-    feed.textContent = tweetInput.value;
+    feedDisplay.textContent = tweetInput.value;
     tweetInput.value = '';
 
 
