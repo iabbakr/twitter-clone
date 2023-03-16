@@ -35,5 +35,11 @@ function getFeedHtml(){
                         </div>
                     `;
     };
-    feedD.innerHTML += feedHtml 
+    return feedHtml 
 };
+
+function render(){
+    document.getElementById('feed').innerHTML += getFeedHtml();
+}
+render();
+
